@@ -13,6 +13,10 @@
 - 运行 dsh 的机器上装有 Claude Code CLI（`claude --version` 可运行），无需登录。
 - 一个 Anthropic 兼容中转站：暴露 `<baseUrl>/v1/messages`，接受 `Authorization: Bearer` 或 `x-api-key`。
 
+## 宿主与分发
+
+本仓库是官方 [DeepSeek Harness Desktop](https://github.com/deepseek-ai/deepseek-harness) 的公开适配版。[DSH Omni](https://github.com/hzxwonder/dsh-omni) 会在 Omni 验收后集成固定版本快照。两套版本共享该模型提供方实现，但按各自宿主独立验收；Web 端不再作为维护目标。官方 Desktop 的当前状态见 [Omni 兼容性报告](https://github.com/hzxwonder/dsh-omni/blob/main/docs/official-desktop-compatibility.md)。
+
 ## 在 DeepSeek Harness Desktop 中安装
 
 本仓库是官方 [DeepSeek Harness Desktop](https://github.com/deepseek-ai/deepseek-harness) 的独立插件。在应用的插件管理器中添加下面的仓库地址：

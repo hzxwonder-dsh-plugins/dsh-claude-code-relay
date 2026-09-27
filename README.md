@@ -13,6 +13,10 @@ Inspired by [dsh-oh-my-claude](https://github.com/lcestou/dsh-oh-my-claude), whi
 - The Claude Code CLI on the machine that runs dsh (`claude --version` works); it does not need to be logged in.
 - An Anthropic-compatible relay: serves `<baseUrl>/v1/messages` and accepts `Authorization: Bearer` or `x-api-key`.
 
+## Host and distribution
+
+This repository is the public adapter for the official [DeepSeek Harness Desktop](https://github.com/deepseek-ai/deepseek-harness). [DSH Omni](https://github.com/hzxwonder/dsh-omni) integrates the pinned vendor snapshot after Omni validation. The two editions share this provider implementation but are validated against their hosts independently; Web is no longer a maintenance target. Check the [Omni compatibility report](https://github.com/hzxwonder/dsh-omni/blob/main/docs/official-desktop-compatibility.md) for the current Desktop status.
+
 ## Install on DeepSeek Harness Desktop
 
 This repository is the standalone plugin for the official [DeepSeek Harness Desktop](https://github.com/deepseek-ai/deepseek-harness). In the app's plugin manager, add:
